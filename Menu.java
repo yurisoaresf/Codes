@@ -1,4 +1,4 @@
-package ProjetoOuvidoria;
+package projetoOuvidoria;
 
 import java.util.ArrayList;
 import java.util.List;
