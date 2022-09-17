@@ -17,14 +17,14 @@ public class Menu {
 		while (true) {
 			System.out.println("********************************************");
 			System.out.println("***   Bem-Vindo a Ouvidoria Unifacisa!   ***");
-			System.out.println("********************************************" + "\n");
+			System.out.println("********************************************\n");
 			System.out.println("1) Enviar uma manifestação");
 			System.out.println("2) Listar todas as manifestações");
 			System.out.println("3) Listar todas as sugestões");
 			System.out.println("4) Listar todas as reclamações");
 			System.out.println("5) Listar todos os elogios");
 			System.out.println("6) Pesquisar manifestações");
-			System.out.println("7) Sair" + "\n");
+			System.out.println("7) Sair\n");
 			System.out.println("********************************************");
 			System.out.print("Digite a opção desejada: ");
 			int opcao = Teclado.leInt();
@@ -34,7 +34,7 @@ public class Menu {
 //Selecionando o tipo de manifestação a se criar.//
 			if (opcao == 1) {
 				while (true) {
-					System.out.println("***   Criar Manifestação!  ***" + "\n");
+					System.out.println("***   Criar Manifestação!  ***\n");
 					System.out.println("Escolha o tipo de manifestação: ");
 					System.out.println("1) Sugestão");
 					System.out.println("2) Reclamação");
@@ -45,23 +45,23 @@ public class Menu {
 					if (tipo == 1) {
 						System.out.println("Digite sua Sugestão: ");
 						sugestoes = Teclado.leString();
-						System.out.println("Sugestão criada com sucesso!" + "\n");
+						System.out.println("Sugestão criada com sucesso!\n");
 						break;
 
 					} else if (tipo == 2) {
 						System.out.println("Digite sua Reclamação: ");
 						reclamacoes = Teclado.leString();
-						System.out.println("Reclamação criada com sucesso!" + "\n");
+						System.out.println("Reclamação criada com sucesso!\n");
 						break;
 
 					} else if (tipo == 3) {
 						System.out.print("Digite seu Elogio: ");
 						elogios = Teclado.leString();
-						System.out.println("Elogio criado com sucesso!" + "\n");
+						System.out.println("Elogio criado com sucesso!\n");
 						break;
 
 					} else {
-						System.out.println("Opção Inválida! Digite uma das opções abaixo:" + "\n");
+						System.out.println("Opção Inválida! Digite uma das opções abaixo:\n");
 					}
 				}
 			}
