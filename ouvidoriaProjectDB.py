@@ -1,5 +1,5 @@
 from opearacoesbd import *
-conn = abrirBancoDados('localhost','root','Sbgbtw0h45kgb@','ouvidoria')
+conn = abrirBancoDados('localhost','root','qualquercoisa','ouvidoria')
 
 opcao = 0
 tipos = ['Sugestão', 'Reclamação', 'Elogio']
